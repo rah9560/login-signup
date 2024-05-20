@@ -23,7 +23,7 @@ const Login = () => {
                 if(result.data==="success"){
                     navigate("/home")
                 }else{
-                    console.log("chutiya");
+                    console.log("error");
                 }
                     
     })
